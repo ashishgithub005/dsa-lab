@@ -112,6 +112,9 @@ A subarray is a continuous (contiguous) part of an array.
                              => 4   which is {3,4,5,6}
 
      <b>Note ::</b> this properties is used to calculate longest / shortest subarray length.
+     5️⃣ Prefix Sum Property ::
+         It is used to calculate sum of subarray.
+         <b>sum(start,end)=prefix[end]−prefix[start−1]</b>
 </pre>
 
 
