@@ -34,11 +34,24 @@
         = 7 ==> 1, 5, 1
     max = max(sum, max); => 8
     repeat this step unti we got maxsum
-    SO this process reduced TC from O(n^2) to O(n)
+    So this process reduced TC from O(n^2) to O(n)
                             
-    
+    <b>Types of Sliding Window ::</b>
+    <b>Type 1: Fixed Size Window :: </b>
+      Window size = K (constant)
+      📌 Use when:
+      Window size is given
+      Example: max sum of subarray of size k
+  
+    <b>Type 2: Variable Size Window :: </b>
+      Window size changes dynamically
+      📌 Use when:
+      Condition based window
+      Find smallest / longest subarray
+      Array has positive numbers only
     
 </pre>
+
 
 
 
