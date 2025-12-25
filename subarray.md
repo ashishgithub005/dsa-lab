@@ -111,22 +111,7 @@ A subarray is a continuous (contiguous) part of an array.
                              => 5 - 2 + 1
                              => 4   which is {3,4,5,6}
 
-        <b>Note ::</b> this properties is used to calculate longest / shortest subarray.
-
-
-
-                
-  
-  
-  
-  
-
-
-
-
-
-
-
+        <b>Note ::</b> this properties is used to calculate longest / shortest subarray length.
 </pre>
 
 
