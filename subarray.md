@@ -119,9 +119,11 @@ A subarray is a continuous (contiguous) part of an array.
              <b>SubarraySum(i,j)= prefix[j] if i = 0,
                                prefix[j]−prefix[i−1]​ if i>0 </b>
              <b>Note::</b>We subtract prefix[i−1] because it removes all elements before index i, while keeping the element at index i in the subarray.​
-         Example ::  find sum of subarray(3,5) => {4,5,6}
+         Example ::  
+           1. find sum of subarray(3,5) 
            int[] a   = {1,2,3,4,5,6,7,8,9}
            calculate prefixSum ::
+                          0 1 2 3  4  5  6  7  8
            prefixSum[] = {1,3,6,10,15,21,28,36,45} 
            subarray(3,5) => prefixSum[j] − prefixSum[i−1]
                          => prefixSum[5] - prefixSum[3-1]
@@ -130,12 +132,21 @@ A subarray is a continuous (contiguous) part of an array.
            explanation ::
             0 1 2 3 4 5 6 7 8
            {1,2,3,4,5,6,7,8,9}
-                  <--->      
+                  <--->
+                  prefixSum(6) - prefixSum(2)
             <--------->
-                21
-            <----->
-               6
-           
+            prefixSum(6)
+            <--->
+            prefixSum(2)  
+              
+            2. find sum of subarray(0,3) 
+              subarray(0,3) => prefixSum[j]
+                            => 10
+              explanation ::
+              0 1 2 3 4 5 6 7 8
+             {1,2,3,4,5,6,7,8,9}
+              <----->
+               prefixSum(3)   
 </pre>
 
 
