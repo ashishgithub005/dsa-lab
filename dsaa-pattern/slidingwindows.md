@@ -21,7 +21,7 @@ A subarray is a continuous (contiguous) part of an array.
   {1, 3} ❌ (not continuous skipped 2) 
   {2, 4} ❌ (skipped elements 3) 
 
-<b style="color: red;">If an array has n elements, total number of subarrays:</b> n * (n + 1)/2 
+<b>If an array has n elements, total number of subarrays: n * (n + 1)/2  </b>
 Example :: a = {1,2,3} <br/>
   Total possible subarray is :: 6
   1 length : {1}, {2}, {3}      
@@ -35,4 +35,5 @@ Example :: a = {1,2,3} <br/>
 
 
 </pre>
+
 
