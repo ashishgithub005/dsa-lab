@@ -145,8 +145,8 @@ A subarray is a continuous (contiguous) part of an array.
               explanation ::
               0 1 2 3 4 5 6 7 8
              {1,2,3,4,5,6,7,8,9}
-              <----->
-               prefixSum(3)   
+              <--->
+              prefixSum(3)   
 </pre>
 
 
