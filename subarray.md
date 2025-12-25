@@ -41,8 +41,8 @@ A subarray is a continuous (contiguous) part of an array.
 
  <b>Code To Generate All Subarray :: </b>
   
-       public class SubarrayExample {
-         public static void main(String[] args) {
+     public class SubarrayExample {
+       public static void main(String[] args) {
           int[] arr = {1, 2, 3};
           //start indicate take element one by one
           for (int start = 0; start < arr.length; start++) {
@@ -58,7 +58,17 @@ A subarray is a continuous (contiguous) part of an array.
          }
       }
 
+  Output ::
+  {1}
+  {1, 2}
+  {1, 2, 3}
+  {2}
+  {2, 3}
+  {3}
 
+                  
+                
+  
   
   
   
