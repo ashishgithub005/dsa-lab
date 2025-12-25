@@ -147,6 +147,20 @@ A subarray is a continuous (contiguous) part of an array.
              {1,2,3,4,5,6,7,8,9}
               <--->
               prefixSum(3)   
+
+<b>Problem Asked on SubArray :: </b>
+   1. find maximum sum when size of subarray is k = 3.
+   2. Find smallest subarray whose sum ≥ K.
+   3. Count total subarrays whose sum equals K
+   4. Find subarray sum = K when negative numbers exist
+   5. 
+
+WHEN TO USE SLIDING WINDOW?
+✔ Subarray / Substring
+✔ Continuous elements
+✔ Max / Min / Count / Sum / Length
+✔ Array or String
+                
 </pre>
 
 
