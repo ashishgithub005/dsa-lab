@@ -35,6 +35,7 @@ A subarray is a continuous (contiguous) part of an array.
     Total Subaraay possible with 1 size => 3
     Total Subaraay possible with 2 size => 2
     Total Subaraay possible with 3 size => 1
+    ----------------------------------------
     So total possible subarray => 3 + 2 + 1 
                                => 6
 
