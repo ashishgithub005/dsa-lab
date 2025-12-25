@@ -114,7 +114,13 @@ A subarray is a continuous (contiguous) part of an array.
      <b>Note ::</b> this properties is used to calculate longest / shortest subarray length.
      5️⃣ Prefix Sum Property ::
          It is used to calculate sum of subarray.
-         <b>sum(start,end)=prefix[end]−prefix[start−1]</b>
+         prefix[i]=a[0]+a[1]+⋯+a[i]
+         Then, the sum of any subarray from index i to j is:
+             <b>SubarraySum(i,j)= prefix[j] if i = 0
+                               prefix[j]−prefix[i−1]​ if i>0 </b>​
+         Example ::
+           int[] a   = {1,2,3,4, 5,6,7,8,9}
+           prefixSum = {1,3,6,10,15, 22, 30, 39} 
 </pre>
 
 
