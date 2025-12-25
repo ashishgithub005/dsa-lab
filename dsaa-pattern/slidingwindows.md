@@ -1,29 +1,37 @@
+<pre>
 <b>SubArray</b> ::
-A subarray is a continuous (contiguous) part of an array. <br/>
+A subarray is a continuous (contiguous) part of an array. 
 
-Example :: <br/>
-int[] arr = {1, 2, 3, 4}; <br/>
+Example ::
+int[] arr = {1, 2, 3, 4}; 
 Valid Subarrays <br/>
-{1} <br/>
-{2} <br/>
-{3} <br/>
-{4} <br/>
-{1, 2} <br/>
-{2, 3} <br/>
-{3, 4} <br/>
-{1, 2, 3} <br/>
-{2, 3, 4} <br/>
-{1, 2, 3, 4} <br/>
-✔️ because All elements are continuous <br/>
+{1}
+{2} 
+{3} 
+{4}
+{1, 2} 
+{2, 3} 
+{3, 4} 
+{1, 2, 3} 
+{2, 3, 4} 
+{1, 2, 3, 4}
+✔️ because All elements are continuous
 
-❌ Not Subarrays (Why?) <br/>
-{1, 3} ❌ (not continuous skipped 2) <br/>
-{2, 4} ❌ (skipped elements 3) <br/>
+❌ Not Subarrays (Why?) 
+{1, 3} ❌ (not continuous skipped 2) 
+{2, 4} ❌ (skipped elements 3) 
 
-<b>If an array has n elements, total number of subarrays:</b> n * (n + 1)/2 <br/>
+<b>If an array has n elements, total number of subarrays:</b> n * (n + 1)/2 
+Example :: a = {1,2,3} <br/>
+  Total possible subarray is :: 6
+  1 length : {1}, {2}, {3}      
+  2 length :  {1,2}, {2,3} 
+  3 length :  {1,2,3} 
 
 
 
 
 
 
+
+</pre>
