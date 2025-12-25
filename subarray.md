@@ -41,22 +41,36 @@ A subarray is a continuous (contiguous) part of an array.
 
  <b>Code To Generate All Subarray :: </b>
   
-     public class SubarrayExample {
-       public static void main(String[] args) {
-          int[] arr = {1, 2, 3};
-          //start indicate take element one by one
-          for (int start = 0; start < arr.length; start++) {
-            //end indicate subarray end.
+  public class SubarrayExample {
+
+    public static void main(String[] args) {
+
+        // Given input array
+        int[] arr = {1, 2, 3};
+
+        // Outer loop:
+        // This loop decides the START index of the subarray
+        for (int start = 0; start < arr.length; start++) {
+
+            // Middle loop:
+            // This loop decides the END index of the subarray
+            // It always starts from 'start' to keep subarray continuous
             for (int end = start; end < arr.length; end++) {
-                // print subarray from start to end
+
+                // Inner loop:
+                // This loop prints elements from index 'start' to 'end'
+                // These elements together form ONE subarray
                 for (int i = start; i <= end; i++) {
                     System.out.print(arr[i] + " ");
                 }
-                System.out.println(); //new line
-               }
+
+                // Move to next line after printing one subarray
+                System.out.println();
             }
-         }
-      }
+        }
+     }
+  }
+
 
   Output ::
   {1}
