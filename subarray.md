@@ -80,7 +80,41 @@ A subarray is a continuous (contiguous) part of an array.
   {2, 3}
   {3}
 
-                  
+<b>Properties of Subarray :: </b>
+   1️⃣ Continuity (Most Important Property) ::
+       A subarray is always continuous.
+       Example ::
+        Valid:   [2, 3, 4]
+        Invalid: [2, 4]  ❌ (not continuous)
+
+   2️⃣ Defined by Two Indices (start & end) ::
+       Every subarray can be represented as:
+       arr[.....start ... end.....]
+       Helps in range-based problems
+       for (int start = 0; start < n; start++){
+          for (int end = start; end < n; end++){
+              //logic                     
+          }
+       }
+         
+    3️⃣ Order Must be Preserved ::
+        Elements keep the same order as original array.
+        Array:     [5, 1, 3]
+        Subarray:  [1, 3] ✅
+        Invalid: [5, 3]  ❌ (not continuous)
+
+    4️⃣ Subarray Length Formula :: 
+        int subarray length = end - start + 1
+        Example ::
+        int[] a = {1,2,3,4,5,6,7,8,9}
+        find length sub(2,5) => end - start + 1
+                             => 5 - 2 + 1
+                             => 4   which is {3,4,5,6}
+
+        <b>Note ::</b> this properties is used to calculate longest / shortest subarray.
+
+
+
                 
   
   
