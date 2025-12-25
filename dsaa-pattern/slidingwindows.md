@@ -10,28 +10,14 @@
     Example :: Find maximum sum of subarray of size k.
     arr = [2, 1, 5, 1, 3, 2]
     k = 3
-    private static int bruteforceMethod(int[] a, int k) {
-        int maxSum = Integer.MIN_VALUE;
-
-        for (int i = 0; i < a.length - k + 1; i++) {
-            int sum = 0;
-            for (int j = i; j < i+k; j++) {
-                sum += a[j];
-            }
-
-            maxSum = Math.max(sum, maxSum);
-        }
-
-        return maxSum;
-    }
-
+    
     Analysis ::
     [2,1,5] → 8
     [1,5,1] → 7
     [5,1,3] → 9 ✅
     [1,3,2] → 6
 
-    so here we are calculating sum again and again. and also some number is repeating in subarray. 
+    So here we are calculating sum again and again. and also some number is repeating in subarray. 
     TC = O(n^2)
     SC = O(1)
 
@@ -53,6 +39,7 @@
     
     
 </pre>
+
 
 
 
