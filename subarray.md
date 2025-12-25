@@ -39,7 +39,8 @@ A subarray is a continuous (contiguous) part of an array.
     So total possible subarray => 3 + 2 + 1 
                                => 6
 
-    Code To Generate All Subarray ::
+ <b>Code To Generate All Subarray :: </b>
+  
        public class SubarrayExample {
          public static void main(String[] args) {
           int[] arr = {1, 2, 3};
