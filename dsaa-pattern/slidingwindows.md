@@ -1,5 +1,15 @@
 <pre>
-  Sliding Window Pattern ::
-     Sliding Window is a technique to process a range (subarray / substring) of elements efficiently by moving a window over the data instead of recalculating everything again and again.
+  <b<Sliding Window Pattern ::</b>
+    => Sliding Window is an algorithmic technique used to process contiguous subarrays / substrings by maintaining 
+  a window over the data and sliding it forward instead of recalculating from scratch.
+    => It reduces time complexity from O(n²) to O(n) in many problems.
+
+  <b>Why Sliding Window is Needed :: </b>
+    ❌ Brute Force
+    For every subarray → calculate answer → O(n²) or O(n³)
+    
+    ✅ Sliding Window
+    Reuse previous computation → O(n)
 </pre>
+
 
